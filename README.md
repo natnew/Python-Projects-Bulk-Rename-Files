@@ -9,7 +9,7 @@ import os
 
 def main():
     i = 0
-    path = "C:/Users/NatashaNewbold/Code/Mini Python projects/test virtual/bulk rename/"
+    path = "C:/Users/NAME/bulk rename/"
     for filename in os.listdir(path):
         my_dest = "img" + str(i) + ".jpg"
         my_source = path + filename
